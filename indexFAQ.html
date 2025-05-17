@@ -1,158 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Development FAQ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
+            margin: 20px;
             max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
+            background: #121212;
+            color: #e0e0e0;
         }
-
-        .main-content {
-            width: 70%;
-            float: left;
-            padding-right: 30px;
+        .container {
+            display: flex;
+            gap: 40px;
         }
-
         .sidebar {
-            width: 25%;
-            float: right;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .section {
-            margin-bottom: 30px;
+            width: 250px;
+            flex-shrink: 0;
+            background: #1e1e1e;
             padding: 15px;
-            background-color: #fff;
-            border-radius: 5px;
+            border-radius: 3px;
         }
-
-        h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
+        .main-content {
+            flex-grow: 1;
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 3px;
         }
-
-        h2 {
-            color: #34495e;
-            margin-top: 0;
-            font-size: 1.2em;
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            border: 1px solid #2d2d2d;
         }
-
-        h3 {
-            color: #3498db;
-            margin-bottom: 10px;
+        td, th {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #2d2d2d;
+            background: #252525;
         }
-
         ul {
             list-style: none;
             padding-left: 0;
             margin: 10px 0;
         }
-
-        li {
-            margin: 8px 0;
-            padding: 5px;
-            border-left: 3px solid #3498db;
-            padding-left: 10px;
+        li::before {
+            content: "•";
+            margin-right: 8px;
+            color: #4a4a4a;
         }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        h1 {
+            border-bottom: 2px solid #2d2d2d;
+            padding-bottom: 10px;
+            color: #ffffff;
+            margin-top: 0;
+        }
+        h2 {
+            color: #9e9e9e;
+            border-bottom: 2px solid #2d2d2d;
+            padding-bottom: 5px;
+            font-size: 1.1em;
+            margin: 20px 0 15px 0;
+        }
+        h3 {
+            color: #6c8cff;
+            margin: 25px 0 10px 0;
+            font-size: 1.05em;
+        }
+        p {
+            color: #bdbdbd;
+            margin: 5px 0 20px 0;
+            line-height: 1.5;
+        }
+        .status-table {
+            border: none;
             margin: 15px 0;
         }
-
-        td {
-            padding: 8px;
-            border: 1px solid #ddd;
+        .status-table td {
+            border: none;
+            padding: 4px 0;
+            background: transparent;
+            color: #8a8a8a;
         }
     </style>
 </head>
 <body>
-    <div class="main-content">
-        <h1>Game Development FAQ</h1>
+    <div class="container">
+        <div class="sidebar">
 
-        <div class="section">
+
+        <div class="main-content">
+            <h1>English FAQ</h1>
+
             <h3>Release date?</h3>
             <p>When it's ready, however you can check download page and check the reverse-open builds over time.</p>
-        </div>
 
-        <div class="section">
             <h3>When did development start?</h3>
-            <p>March 2025</p>
-        </div>
+            <p>26.11.2017</p>
 
-        <div class="section">
             <h3>Will find support phase copy of the game?</h3>
             <p>No. Most requires original steam copy of the game to work.</p>
-        </div>
 
-        <div class="section">
-            <h3>How many players will the multiplier support?</h3>
-            <p>Currently multiplier supports up to a players in a single session. Plans include making GTA Online-style multiplayer (with online support) and possible future support for more players.</p>
-        </div>
+            <h3>How many players will the multiplier read anymore?</h3>
+            <table>
+                <tr>
+                    <td>Currently multipliers supports us to a player in a single session. Find all all he plans is to make GO OF style multipliers (however he ends on online this way) or will be possible to add support finance players later.</td>
+                </tr>
+            </table>
 
-        <div class="section">
             <h3>Will there be dedicated servers?</h3>
-            <p>Currently no. The game is using peer-to-peer networking. One player is a host that connects via Steam to other players. The host player's save is being used.</p>
-        </div>
+            <table>
+                <tr>
+                    <td>Currently no. The mall is using peer-bogers networking. One player is a host that can reach his steam heads to the game. The host player saves is being used.</td>
+                </tr>
+            </table>
 
-        <div class="section">
             <h3>What about custom images?</h3>
-            <p>The game will download custom images that the "host" has. When you join a game, your client will download and load other players' images before streaming begins.</p>
-        </div>
+            <table>
+                <tr>
+                    <td>The data is Go with download mechanism for the run mode but will fetch custom images that the "host" has. So where you join the game of your client? Some before streaming is worth! The game and download and load your friends' images.</td>
+                </tr>
+            </table>
 
-        <div class="section">
-            <h3>Who is making this game?</h3>
-            <p>The game is being developed by Epic, Citrix, and Dark Kostas, with contributions from other community members.</p>
-        </div>
+            <h3>Who is making this man?</h3>
+            <table>
+                <tr>
+                    <td>The mall is being made by new - Epic, Citrix, and Dark Kostas who communicate from other people from the community.</td>
+                </tr>
+            </table>
 
-        <div class="section">
-            <h3>Need the Red Leader?</h3>
-            <p>No custom functions required. Multiplayer works with different games (like ETS 2 and GTA-SA). Just launch the game using the multiplayer mod and connect through your desktop.</p>
-        </div>
+            <h3>Done and require the Red Leader?</h3>
+            <table>
+                <tr>
+                    <td>No fun modes a custom function just. No multiplier's mode to different games (like ETS 2 and GTA-SA). You just launch the game using the multipliers and contact on your desktop and it works.</td>
+                </tr>
+            </table>
 
-        <div class="section">
-            <h3>Can I use mods with multiplayer?</h3>
-            <p>Mods won't be blocked by the multiplayer mod, but synchronization isn't planned for initial release. A multiplayer API will be released for mod creators to properly synchronize their creations.</p>
-        </div>
+            <h3>Can I use mode with multipliers?</h3>
+            <table>
+                <tr>
+                    <td>Molds we not going to be blocked by the multipliers' mod, however ignore synchronisation at them is not planned (in the first release on image via web comedy).</td>
+                </tr>
+            </table>
 
-        <div class="section">
-            <h3>What happens when one of the players disconnects?</h3>
-            <p>If host disconnects: the game ends. If joining player disconnects: they can attempt to reconnect.</p>
-        </div>
+            <h3>What happens when one of the players die?</h3>
+            <table>
+                <tr>
+                    <td>It depends if players have come. If best players die: the game version reads, if player that joined version can be accomplished and fails to connect again.</td>
+                </tr>
+            </table>
 
-        <div class="section">
-            <h3>How is time-skipping handled?</h3>
-            <p>Currently synchronizes time after time-skipping activities. Considering either disabling time-skipping or making it "synchronized" where all players must perform the same time-skip.</p>
-        </div>
-    </div>
-
-    <div class="sidebar">
-        <div class="section">
-            <h2>Pages</h2>
-            <ul>
-                <li>• Home</li>
-                <li>• General Rep</li>
-                <li>• Position No</li>
-                <li>• EasyAccess Commons</li>
-            </ul>
-        </div>
-
-
-        </div>
-            </ul>
-        </div>
+            <h3>How is stopping (any time-skipping activity) he solved?</h3>
+            <table>
+                <tr>
+                    <td>Currently after any time-skipping activity time is being synchronised back again after it finishes.</td>
+                </tr>
+                <tr>
+                    <td>This is something we may resist at time dies, currently there are two ideas even in to completely disable such activities or make them "immortal-style" that means all players arrive will need to do the same time-skipping activity too skip too time.</td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>
